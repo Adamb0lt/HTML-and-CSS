@@ -1,0 +1,105 @@
+Build a Product Landing Page
+
+<!DOCTYPE html>
+<html lang ='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport'
+<link rel="stylesheet" href="styles.css">>
+</head>
+<body>
+    <header id='header'>
+      
+      <!-- needs to be linked at the top of the page--><img id='header-img' src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0'><nav id='nav-bar'>
+        <ul>
+          <li>
+            <a href='#section1' class='nav-link'>Why?</a>
+            </li>
+          <li>
+            <a href='#section2' class='nav-link'>When?</a>
+            </li>
+          <li>
+            <a href='#section3' class='nav-link'>Where?</a>
+            </li>
+            <li>
+            <a href='#section4' class='nav-link'>Remember</a>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <form id='form' action='https://www.freecodecamp.com/email-submit'>
+      <input type='email' id='email' class='email1' name='email' placeholder='Email' required>
+      <!--needs the get or post thing for step 12--> <input type='submit' id='submit' class=''>
+    </form>
+
+  
+  <section id='section1'>
+    <header>Why?</header>
+    <iframe id='video' src='Video by Joseph  Redfield from Pexels: https://www.pexels.com/video/person-encoding-in-a-computer-2278095/' frameborder='0' allowfullscreen></iframe><p>Your product landing page should have a header element with a corresponding id="header"
+You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)
+Within the #header element, you can see a nav element with a corresponding id="nav-bar"
+You can see at least three clickable elements inside the nav element, each with the class nav-link</p>
+
+  </section>
+  
+  <section id='section2'>
+    <header>Where?</header>
+    <p>Your product landing page should have a header element with a corresponding id="header"
+You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)
+Within the #header element, you can see a nav element with a corresponding id="nav-bar"
+You can see at least three clickable elements inside the nav element, each with the class nav-link</p>
+  </section>
+
+   <section id='section3'>
+    <header>When?</header>
+    <p>Within the form, there is a submit input with a corresponding id="submit"
+When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit)
+The navbar should always be at the top of the viewport
+Your product landing page should have at least one media query
+Your product landing page should utilize CSS flexbox at least once
+</p>
+  </section>
+
+  <section id='section4'>
+    <header>Remember</header>
+    <p>Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
+</p>
+  </section>
+  <footer>
+    <address>
+      <p>Adam</p>
+      <p>Lehigh University</p>
+      <p>Bethlehem, PA</p>
+      <p>NYC</p>
+      </address>
+  </footer>
+
+
+
+
+  
+
+</body>
+</html>
+
+CSS
+footer{border: 1px solid black; margin:0; padding:0; text-align: center}
+
+ul > li{display:inline-block; margin-right:10px}
+
+li:hover{background-color: grey}
+
+header > #nav-bar{position:fixed; top:0}
+
+iframe{display:flex; align-items: center;}
+
+body{padding-top:0;}
+
+@media (max-width: 600px)
+header {
+    flex-wrap: wrap;
+}
+
+#header-img{height:50px; width:50px}
