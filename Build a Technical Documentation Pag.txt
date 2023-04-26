@@ -1,0 +1,92 @@
+Build a Technical Documentation Page
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta>
+  <title></title> 
+  <link rel='stylesheet' href='styles.css'> 
+  </head>
+  <body>
+    <nav id='navbar'>
+      <header>Sections</header>
+      <ul>
+        <li><a class='nav-link' href='#Introduction'>Introduction</a></li>
+        <li><a class='nav-link' href='#Beginning'>Beginning</a></li>
+        <li><a class='nav-link' href='#Middle'>Middle</a></li>
+        <li><a class='nav-link' href='#End'>End</a></li>
+        <li><a class='nav-link' href='#Thoughts'>Thoughts</a></li>
+      </ul>
+      </table>
+    </nav>
+    <main id="main-doc">
+    <section id='Introduction' class="main-section">
+      <header id='Header'>Introduction
+      </header>
+      <p>Adam is about 3/5ths done with completing his web design certification and things are beginning to get a lot harder</p>
+      <p>He is also stressed and doesn't know how he will continue this with school starting up soon.</p>
+      <p>He will find a way though, so it doesn't matter.</p>
+      <p>Throughout the other sections we will learn about ideas and plans that adam has for the semester through different stages</p>
+      <code></code>
+      <code></code>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </section>
+    <section id='Beginning' class="main-section">
+      <header id='header-1'>Beginning
+      </header> 
+      <p>In the beginning of the semester, Adam will be starting classes. He will also begin his 4th run around the clock as the new member educator.He plans to stick to a solid schedule so he doesnt play himself later on</p>
+      <p></p>
+      <p></p>
+      <code></code>
+      <code></code>     
+    </section>
+     <section id='Middle'class="main-section">
+      <header id='header-2'>Middle
+      </header> 
+      <p>THis is where Adam will really be tested</p>
+      <p>Will Adam continue with the coding stuff?</p>
+      <p>Hopefully Adam will. Also it is very much possible with dedication and balance with other things outside of the simple, work life balance stuff</p>
+      <code></code>
+      <code></code>    
+    </section>
+     <section id='End' class="main-section">
+      <header id='header-3'>End
+      </header>  
+      <p></p>
+      <p></p>
+      <p></p>
+      <code></code>
+      <code></code>  
+    </section> 
+     <section id='Thoughts' class="main-section">
+      <header id='header-4'>Thoughts
+      </header>  
+      <p></p>
+      <p></p>
+      <p></p>
+      <code></code>
+      <code></code>     
+    </section>
+    </main>
+  </body>
+</html>
+
+
+CSS
+body{display:flex;}
+
+
+
+
+
+li .nav-link{display:flex;justify-content:space evenly;margin:20px 20px 0px 0; border: 1px solid black;}
+
+tr{margin-top: 5p}
+
+@media (max-width:1000px) {.nav-link{width=100px}}
+
+@media(prefers-reduced-motion:reduce) {* {scroll-behavior:smooth;}}

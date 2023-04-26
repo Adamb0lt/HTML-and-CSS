@@ -1,0 +1,26 @@
+Build a Tribute Page
+
+<!DOCTYPE hmtl>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title id='title'>Who is Adam Walters?</title>
+  <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+  <header>
+  <h1 class='header-adam'>Who is Adam Walters?</h1>
+  </header>
+  <main id='main'>
+    <div id='img-div'><img id='image' src='https://images.squarespace-cdn.com/content/v1/5e279cc3329b6004f775ab7d/1648049554123-M2ZQO063U59IHII34BQV/2F7BD81A-1CDE-47FF-841D-69114109B44F.jpeg?format=500w' alt='picture of adam'><figcaption id="img-caption" >Adam was born in Jamaica, but currently lives in the U.S.. He is currently a senior in college and is working hard to build skills in different programming languages.</figcaption></div>
+    <h2>Want to know more about Adam?</h2>
+    <p id="tribute-info">If you want to learn more about Adam outside of what he is pursuing with programming, check out his <a id="tribute-link" target='_blank' href ='https://www.linkedin.com/in/adam-walters-6ab4151b0/'>LinkedIn Profile</a> for more info</p></div>
+  </main>
+  <footer> 
+  </footer>
+</body>
+</html>
+
+CSS
+img {max-width:100%; max-height:50%;
+height:auto;display:block; margin:auto;}

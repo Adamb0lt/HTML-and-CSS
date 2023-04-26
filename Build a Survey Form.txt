@@ -1,0 +1,85 @@
+Build a Survey Form
+
+
+<!DOCTYPE hmtl>
+<html lang='en'>
+<head>
+<meta charset="utf-8">
+<title>How much have you learned?</title>
+<link rel='stylesheet' href="styles.css">
+</head>
+<body>
+  <h1 id = "title">How much have you learned?</h1>
+  <p id = "description">You spent about 3 weeks on FCC, we want to know how much you learned</p>
+  <form id="survey-form" method='post' action="">
+  <fieldset>
+   <label for='name' id='name-label'>Full Name: 
+     <input type='text' id='name' name='name' placeholder='First and Last Name' required> 
+    </label>
+    <label for='email' id='email-label'>Email:
+       <input type='email' id='email' name='email' placeholder="enter email" required>
+    </label>
+    <label for='number' id='number-label'>Number: <input type='number' id='number' name='number' min="0" max="100" placeholder='0-100' required>
+    </label>
+    <label for='dropdown-label'>How much about the language have you learned from FCC? <select id='dropdown' name='dropdown-label'>
+      <option value=''>Everything</option>
+      <option value='1'>A lot</option>
+      <option value='2'>Half as much</option>
+      <option value='3'>Some</option>
+      <option value='4'>Not much</option>
+    </select>
+    </label>
+    <label>
+ </fieldset>
+ <h2>How much have you retained?</h2>
+ <p>We want to know how much information you retained</p>
+ <fieldset>
+ <label>
+   <input type='radio' name='retention' id='retention' value='5'>Everything
+   </label>
+ <label>
+   <input type='radio' name='retention' id='retention' value='6'>Most things
+   </label>
+   <label>
+   <input type='radio' name='retention' id='retention' value='7'>Some things
+   </label>
+   <label>
+   <input type='radio' name='retention' id='retention' value='8'>Not Much
+   </label>
+ </fieldset>
+ <h3>What can we improve on?</h3>
+ <p>Choose at least one of the options below or elaborate</p>
+ <fieldset>
+   <label>
+   <input type='checkbox' name='retention' id='retention' value='9'> Add videos
+   </label>
+   <label>
+   <input type='checkbox' name='retention' id='retention' value='10'> Recommend use of the forums more
+   </label>
+   <label>
+   <input type='checkbox' name='retention' id='retention' value='11'> Add questions(multiple choice and short answer)
+   </label>
+   <label id='other-label'>Other:  
+    <textarea placeholder='Elaborate'></textarea>
+   </label>
+   </fieldset>
+   <input type='submit' id='submit' name='submit'>
+   </form>
+
+   
+   
+ </fieldset>
+
+</body>
+</html>
+
+
+CSS
+label,input{display:inline-block; padding:5px 5px;margin:auto;}
+
+body
+{background-image:url(https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg);max-width: 500px}
+
+label[id='other-label']{vertical-align:middle;}
+
+h1,h2,h3{font-size:26px}
